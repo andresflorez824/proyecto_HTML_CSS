@@ -4,54 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Patitas Felices</title>
-    <link rel="stylesheet" href="../css/0.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Paticas🐾Felices</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="adoptar.html">Adoptar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <nav>
-        <div class="logo">🐾 Patitas Felices</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="adoptar.html">Adoptar</a></li>
-            <li><a class="active" href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte. Envíanos un mensaje o visítanos</p>
+        </div>
+    </section>
 
-<section class="contact-section">
-    <div class="form-container">
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="form-container">
+                    <h2>Envíanos un Mensaje</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="nombre" class="required">Nombre</label>
+                            <input type="text" id="nombre" class="form-control" placeholder="Tu nombre" required>
+                        </div>
 
-        <h2 class="section-title">Contáctanos</h2>
+                        <div class="form-group">
+                            <label for="apellidos" class="required">Apellidos</label>
+                            <input type="text" id="apellidos" class="form-control" placeholder="Tus apellidos" required>
+                        </div>
 
-        <form>
-            <div class="form-grid">
-                <div class="form-group">
-                    <label class="required">Nombre</label>
-                    <input type="text">
+                        <div class="form-group">
+                            <label for="ciudad" class="required">Ciudad</label>
+                            <input type="text" id="ciudad" class="form-control" placeholder="Tu ciudad" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="required">Correo Electrónico</label>
+                            <input type="email" id="email" class="form-control" placeholder="tu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" class="form-control" placeholder="+57 300 123 4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tipo" class="required">Tipo de Consulta</label>
+                            <select id="tipo" class="form-control" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="adopcion">Adopción</option>
+                                <option value="donacion">Donación</option>
+                                <option value="voluntariado">Voluntariado</option>
+                                <option value="informacion">Información General</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje" class="required">Mensaje</label>
+                            <textarea id="mensaje" class="form-control" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                    </form>
                 </div>
 
-                <div class="form-group">
-                    <label class="required">Correo</label>
-                    <input type="email">
-                </div>
+                <div class="contact-info-container">
+                    <h2>Información de Contacto</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Correo Electrónico</h4>
+                            <p>contacto@patitasfelices.org</p>
+                            <p>adopciones@patitasfelices.org</p>
+                        </div>
+                    </div>
 
-                <div class="form-group full-width">
-                    <label class="required">Mensaje</label>
-                    <textarea></textarea>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Teléfono</h4>
+                            <p>+57 300 123 4567</p>
+                            <p>+57 311 987 6543</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Dirección</h4>
+                            <p>Calle 45 #27-50</p>
+                            <p>Bucaramanga, Santander</p>
+                            <p>Colombia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h4>Horario de Atención</h4>
+                            <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                            <p>Sábados: 10:00 AM - 4:00 PM</p>
+                            <p>Domingos: Cerrado</p>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder">
+                        🗺️ Mapa de ubicación
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Síguenos en Redes Sociales</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">F</a>
+                            <a href="#" class="social-link">I</a>
+                            <a href="#" class="social-link">T</a>
+                            <a href="#" class="social-link">Y</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <button class="btn" type="submit">Enviar</button>
-        </form>
+    <section class="section faq-section">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>¿Cuál es el proceso de adopción?</h3>
+                    <p>El proceso incluye: completar el formulario de solicitud, una entrevista personal, visita al hogar (opcional), y firma del contrato de adopción. Todo el proceso toma aproximadamente 1-2 semanas.</p>
+                </div>
 
-    </div>
-</section>
+                <div class="faq-item">
+                    <h3>¿Cuánto cuesta adoptar?</h3>
+                    <p>La adopción tiene un costo de recuperación de $150.000 COP que cubre vacunas, esterilización, desparasitación y atención veterinaria básica.</p>
+                </div>
 
-<footer>
-    <div class="footer-bottom">© 2025 Patitas Felices</div>
-</footer>
+                <div class="faq-item">
+                    <h3>¿Puedo ser voluntario?</h3>
+                    <p>¡Sí! Siempre necesitamos voluntarios. Puedes ayudar cuidando animales, en eventos de adopción, transporte, o actividades administrativas. Completa el formulario seleccionando "Voluntariado".</p>
+                </div>
 
+                <div class="faq-item">
+                    <h3>¿Cómo puedo donar?</h3>
+                    <p>Aceptamos donaciones monetarias, alimento, medicamentos y suministros. Contacta con nosotros para más información sobre cómo ayudar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <strong>Paticas🐾Felices</strong><br>
+                © 2025 Todos los derechos reservados
+            </div>
+            <div>
+                📧 paticasfelices@gmail.com<br>
+                📱 +57 300 123 4567
+            </div>
+            <div>
+                <p>Desarrollado por <strong>Anflovar</strong></p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">F</a>
+                <a href="#" class="social-link">📷</a>
+                <a href="#" class="social-link">X</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

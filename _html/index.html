@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patitas Felices - Inicio</title>
-    <link rel="stylesheet" href="../css/0.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-
-    <!-- HEADER -->
-    <header>
-        <nav>
-            <div class="logo">🐾 Patitas Felices</div>
-            <ul class="nav-links">
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Paticas🐾Felices</div>
+            <ul class="nav-menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="adoptar.html">Adoptar</a></li>
@@ -21,78 +19,135 @@
         </nav>
     </header>
 
-    <!-- HERO -->
     <section class="hero">
-        <h1>Fundación Patitas Felices</h1>
-        <p>Rescatamos, cuidamos y encontramos hogares llenos de amor</p>
-        <a href="adoptar.html" class="btn">Conoce Nuestros Animales</a>
+        <div class="hero-content">
+            <h1>Patitas Felices</h1>
+            <p>Rescatando vidas, transformando corazones. Únete a nuestra misión de dar amor y hogar a los animales que más lo necesitan.</p>
+            <a href="adoptar.html" class="btn btn-primary">Adopta Ahora</a>
+        </div>
     </section>
 
-    <!-- CARRUSEL -->
-    <div class="carousel-container">
-        <div class="carousel">
-            <div class="carousel-item">
+    <div class="carousel">
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=1200&h=500&fit=crop" alt="Perro rescatado feliz">
                 <div class="carousel-caption">
-                    <h3>Rescate de Animales</h3>
-                    <p>Salvamos vidas todos los días</p>
+                    <h3>Rescates que cambian vidas</h3>
+                    <p>Cada animal merece una segunda oportunidad</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1415369629372-26f2fe60c467?w=1200&h=500&fit=crop" alt="Gato en adopción">
                 <div class="carousel-caption">
-                    <h3>Cuidado y Amor</h3>
-                    <p>Brindamos atención médica y cariño</p>
+                    <h3>Amor incondicional</h3>
+                    <p>Encuentra a tu compañero perfecto</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1200&h=500&fit=crop" alt="Voluntarios cuidando animales">
                 <div class="carousel-caption">
-                    <h3>Adopción Responsable</h3>
-                    <p>Conectamos corazones con patitas</p>
+                    <h3>Comunidad comprometida</h3>
+                    <p>Voluntarios dedicados al bienestar animal</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?w=1200&h=500&fit=crop" alt="Evento de adopción">
+                <div class="carousel-caption">
+                    <h3>Eventos de adopción</h3>
+                    <p>Ven y conoce a nuestros peluditos</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- FEATURES -->
-    <div class="container">
-        <h2 class="section-title">¿Cómo Puedes Ayudar?</h2>
-
-        <div class="features">
-            <div class="feature-card">
-                <div class="feature-icon">🏠</div>
-                <h3>Adopta</h3>
-                <p>Dale un hogar a un amigo peludo.</p>
-                <a href="adoptar.html" class="btn btn-secondary">Ver Animales</a>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">💝</div>
-                <h3>Dona</h3>
-                <p>Tu aporte nos ayuda a seguir rescatando animales.</p>
-                <a href="contacto.html" class="btn btn-secondary">Donar Ahora</a>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">🤝</div>
-                <h3>Voluntariado</h3>
-                <p>Únete y marca la diferencia.</p>
-                <a href="contacto.html" class="btn btn-secondary">Ser Voluntario</a>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">¿Cómo Puedes Ayudar?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Adopta</h3>
+                    <p>Dale un hogar lleno de amor a un animal que lo necesita. Tenemos perros y gatos de todas las edades esperando por ti.</p>
+                    <a href="adoptar.html" class="btn btn-primary">Ver Animales</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3>Dona</h3>
+                    <p>Tu donación nos ayuda a proporcionar alimento, atención veterinaria y refugio a los animales rescatados.</p>
+                    <a href="contacto.html" class="btn btn-primary">Donar</a>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Voluntariado</h3>
+                    <p>Únete a nuestro equipo de voluntarios y contribuye directamente al bienestar de nuestros animales.</p>
+                    <a href="contacto.html" class="btn btn-primary">Únete</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- FOOTER -->
-    <footer>
+    <section class="section testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Historias de Éxito</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Adoptar a Luna fue la mejor decisión de mi vida. Es una compañera increíble y ha llenado mi hogar de alegría. Gracias Patitas Felices por este regalo."</p>
+                    <p class="testimonial-author">- María González</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"El equipo de Patitas Felices es maravilloso. Nos ayudaron en todo el proceso de adopción y Max se adaptó perfectamente a nuestra familia."</p>
+                    <p class="testimonial-author">- Carlos Ramírez</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Ser voluntaria aquí me ha enseñado tanto sobre el amor incondicional. Ver a estos animales recuperarse y encontrar hogares es hermoso."</p>
+                    <p class="testimonial-author">- Laura Martínez</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Animales Rescatados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">350+</div>
+                    <div class="stat-label">Adopciones Exitosas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">80+</div>
+                    <div class="stat-label">Voluntarios Activos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Años de Experiencia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
         <div class="footer-content">
-            <div class="footer-section">
-                <h4>Patitas Felices</h4>
-                <p>Rescate, rehabilitación y adopción responsable.</p>
+            <div>
+                <strong>Paticas🐾Felices</strong><br>
+                © 2025 Todos los derechos reservados
             </div>
-        </div>
-
-        <div class="footer-bottom">
-            © 2025 Patitas Felices
+            <div>
+                📧 paticasfelices@gmail.com<br>
+                📱 +57 300 123 4567
+            </div>
+            <div>
+                <p>Desarrollado por <strong>Anflovar</strong></p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">F</a>
+                <a href="#" class="social-link">📷</a>
+                <a href="#" class="social-link">X</a>
+            </div>
         </div>
     </footer>
-
 </body>
 </html>

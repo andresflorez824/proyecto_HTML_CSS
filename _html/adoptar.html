@@ -4,34 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adoptar - Patitas Felices</title>
-    <link rel="stylesheet" href="../css/0.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Paticas🐾Felices</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="adoptar.html">Adoptar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <nav>
-        <div class="logo">🐾 Patitas Felices</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a class="active" href="adoptar.html">Adoptar</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Adopta un Compañero</h1>
+            <p>Encuentra al amigo perfecto que está esperando por ti</p>
+        </div>
+    </section>
 
-<div class="container">
-    <h2 class="section-title">Animales Disponibles</h2>
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Animales Disponibles</h2>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active">Todos</button>
+                <button class="filter-btn">Perros</button>
+                <button class="filter-btn">Gatos</button>
+                <button class="filter-btn">Disponibles</button>
+            </div>
 
-    <div class="animals-grid">
-        <!-- Copias aquí todo el catálogo de animales -->
-        ...
-    </div>
-</div>
+            <div class="animals-grid">
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1602985341592-9d790da64bdb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGFuaW1hbGVzJTIwcmVzY2F0YWRvc3xlbnwwfHwwfHx8MA%3D%3D" alt="Max" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Max el goat</div>
+                        <span class="status-badge status-available">Disponible</span>
+                        <div class="animal-details">
+                            🐐 Camuro Dorper• 3 años • Macho<br>
+                            Tamaño: Grande • Energía: Alta
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
 
-<footer>
-    <div class="footer-bottom">© 2025 Patitas Felices</div>
-</footer>
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1684579080735-3eb4128fa789?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxnYXRvJTIwYW1hcmlsbG98ZW58MHx8MHx8fDA%3D">
+                    <div class="animal-info">
+                        <div class="animal-name">Luna</div>
+                        <span class="status-badge status-available">Disponible</span>
+                        <div class="animal-details">
+                            🐱 Gato amarillo • 2 años • Hembra<br>
+                            Tamaño: Grande • Energía: Media
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
 
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&h=300&fit=crop" alt="Rocky" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Rocky</div>
+                        <span class="status-badge status-adopted">Adoptado</span>
+                        <div class="animal-details">
+                            🐕 Bulldog • 5 años • Macho<br>
+                            Tamaño: Mediano • Energía: Baja
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=400&h=300&fit=crop" alt="Mia" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Mia</div>
+                        <span class="status-badge status-available">Disponible</span>
+                        <div class="animal-details">
+                            🐱 Gato Siamés • 1 año • Hembra<br>
+                            Tamaño: Pequeño • Energía: Alta
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1581703234664-6ca8d94cbdbd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fGdvbGRlbiUyMHJldHJpZXZlcnxlbnwwfHwwfHx8MA%3D%3D" alt="Charlie" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Charlie</div>
+                        <span class="status-badge status-available">Disponible</span>
+                        <div class="animal-details">
+                            🐕 Golden Retriever • 6 años • Macho<br>
+                            Tamaño: Grande • Energía: Media
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1622273460352-932791f13b50?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGFuaW1hbGVzJTIwcmVzY2F0YWRvc3xlbnwwfHwwfHx8MA%3D%3D" alt="Bella" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Bella</div>
+                        <span class="status-badge status-available">Disponible</span>
+                        <div class="animal-details">
+                            🐱 Gato criollo • 6 meses • Hembra<br>
+                            Tamaño: Pequeño • Energía: Alta
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1670003711259-1c7ec562a930?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGJlYWdsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Buddy" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Buddy</div>
+                        <span class="status-badge status-adopted">Adoptado</span>
+                        <div class="animal-details">
+                            🐕 Beagle • 7 años • Macho<br>
+                            Tamaño: Mediano • Energía: Alta
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <img src="https://images.unsplash.com/photo-1639169620644-0da12e19d2ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2F0byUyMGVnaXBjaW98ZW58MHx8MHx8fDA%3D" alt="Cleo" class="animal-img">
+                    <div class="animal-info">
+                        <div class="animal-name">Cleo</div>
+                        <span class="status-badge status-available">Disponible</span>
+                        <div class="animal-details">
+                            🐱 Gato Egipcio • 3 años • Hembra<br>
+                            Tamaño: Mediano • Energía: Media
+                        </div>
+                        <a href="perfil.html" class="btn btn-primary">Ver Perfil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section process-section">
+        <div class="container">
+            <h2 class="section-title">Proceso de Adopción</h2>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Elige tu compañero</h3>
+                    <p>Navega por nuestros animales disponibles y encuentra el perfecto para ti</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Completa el formulario</h3>
+                    <p>Llena nuestra solicitud de adopción para conocerte mejor</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Entrevista</h3>
+                    <p>Tendremos una charla para asegurar una buena compatibilidad</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>¡Llévalo a casa!</h3>
+                    <p>Completa los documentos y dale la bienvenida a tu nuevo amigo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <strong>Paticas🐾Felices</strong><br>
+                © 2025 Todos los derechos reservados
+            </div>
+            <div>
+                📧 paticasfelices@gmail.com<br>
+                📱 +57 300 123 4567
+            </div>
+            <div>
+                <p>Desarrollado por <strong>Anflovar</strong></p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link">F</a>
+                <a href="#" class="social-link">📷</a>
+                <a href="#" class="social-link">X</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
