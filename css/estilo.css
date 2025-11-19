@@ -3,7 +3,7 @@
     --color-secondary: #4ecd85;
     --color-accent: #FFE66D;
     --color-dark: #2C3E50;
-    --color-light: #ECF0F1;
+    --color-light: #ffffff;
     --color-white: #fdfdff;
     --color-success: #2ECC71;
     --color-error: #E74C3C;
@@ -183,7 +183,7 @@ a {
     display: flex;
     width: 400%;
     height: 100%;
-    animation: slide 12s infinite;
+    animation: slide 14s infinite;
 }
 
 .carousel-slide {
@@ -232,7 +232,7 @@ a {
 
 .section-title {
     font-family: var(--font-heading);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-bottom: var(--spacing-md);
     color: var(--color-primary);
@@ -1131,3 +1131,16 @@ textarea.form-control:required:invalid:not(:placeholder-shown) {
 .form-control:not([required]):focus {
     border-color: var(--color-secondary);
 }
+
+.logo0 {
+    width: 60px;
+    margin-left: 33%;
+}
+
+.baner {
+    width: 20%;
+    margin-left: 39%;
+    position: relative;
+    top: -13px;
+}
+
